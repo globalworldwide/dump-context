@@ -1,0 +1,11 @@
+name: dump-context
+description: Dumps GitHub Actions Context 
+inputs:
+  inputs:
+    description: Workflow Inputs
+runs:
+  using: node16
+  main: ./dist/index.js
+branding:
+  icon: thermometer
+  color: blue
